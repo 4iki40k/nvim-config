@@ -8,7 +8,7 @@ return {
             extensions = {
                 project = {
                     base_dirs = {
-                        '~/nvim-projects',
+                        '~/projects',
 			'~/.config' },
                     hidden_files = true, 
                     theme = "dropdown",
