@@ -30,7 +30,7 @@ return {
       vim.lsp.config("qmlls", {})
       vim.lsp.config("jedi_language_server", {})
 
-      vim.lsp.enable("lua_ls", "clangd",/* "cmake",*/ "qmlls", "jedi_language_server")
+      vim.lsp.enable("lua_ls", "clangd", --[["cmake", ]]"qmlls", "jedi_language_server")
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
