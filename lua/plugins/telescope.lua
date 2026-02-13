@@ -23,13 +23,13 @@ return {
         extensions = {
           project = {
             base_dirs = {
-              {'~/projects', max_depth = 1},
+              {'~/projects', max_depth = 3},
               '~/.config' },
             hidden_files = true,
             theme = "dropdown",
             order_by = "asc",
             sync_with_nvim_tree = true,
-            search_by = "title",
+            search_by = "title"
           }
         }
       })
