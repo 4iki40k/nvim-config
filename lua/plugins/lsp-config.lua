@@ -9,7 +9,7 @@ return {
     "mason-org/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = {"lua_ls", "clangd", "cmake", "qmlls", "jedi_language_server"}
+        ensure_installed = {"lua_ls", "clangd", --[["cmake", ]]"qmlls", "jedi_language_server"}
       })
     end
   },
