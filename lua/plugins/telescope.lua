@@ -23,7 +23,7 @@ return {
         extensions = {
           project = {
             base_dirs = {
-              '~/projects',
+              {'~/projects', max_depth = 1},
               '~/.config' },
             hidden_files = true,
             theme = "dropdown",

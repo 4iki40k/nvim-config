@@ -16,6 +16,14 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      vim.diagnostic.config({
+        virtual_text = true,
+        signs = true,
+        underline = false,
+        update_in_insert = false,
+        severity_sort = true,
+      })
+
       vim.lsp.config("lua_ls", {})
       vim.lsp.config("clangd", {})
       vim.lsp.config("cmake", {})
