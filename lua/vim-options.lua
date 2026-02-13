@@ -1,5 +1,8 @@
 vim.g.mapleader = " "
 
+vim.opt.number = true
+vim.opt.relativenumber = false
+
 vim.o.clipboard = "unnamedplus"
 
 -- paste from clipboard
