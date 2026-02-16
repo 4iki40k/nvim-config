@@ -6,10 +6,10 @@ vim.opt.relativenumber = false
 vim.o.clipboard = "unnamedplus"
 
 -- paste from clipboard
-vim.keymap.set('n', '<C-S-v>', '"+p', { noremap = true, silent = true })
-vim.keymap.set('v', '<C-S-v>', '"+p', { noremap = true, silent = true })
-vim.keymap.set('c', '<C-S-v>', '<C-r>+', { noremap = true, silent = true })
-vim.keymap.set('i', '<C-S-v>', '<C-r>+', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-v>', '"+p', { noremap = true, silent = true })
+vim.keymap.set('x', '<C-v>', '"_dP', { noremap = true, silent = true })
+vim.keymap.set('c', '<C-v>', '<C-r>+', { noremap = true, silent = true })
+vim.keymap.set('i', '<C-v>', '<C-r>+', { noremap = true, silent = true })
 
 -- copy to clipboard
 vim.keymap.set('n', '<C-c>', '"+y', {})
