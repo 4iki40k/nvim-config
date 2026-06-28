@@ -3,6 +3,10 @@ vim.g.mapleader = " "
 vim.opt.number = true
 vim.opt.relativenumber = false
 
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.expandtab = true
+
 vim.o.clipboard = "unnamedplus"
 
 -- paste from clipboard
